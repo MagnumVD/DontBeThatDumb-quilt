@@ -1,11 +1,14 @@
 {
 	"required": true,
 	"minVersion": "0.8",
-	"package": "com.example.example_mod.mixin",
+	"package": "io.github.magnumvd.dont_be_that_dumb.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [],
 	"client": [
-		"TitleScreenMixin"
+      "CowMixin",
+      "SheepMixin",
+      "PigMixin",
+      "ZombieMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
